@@ -7,7 +7,7 @@ import { useLoginMutation } from "@/store/features/auth/authApiSlice";
 import { useRouter } from "next/navigation";
 
 // least 6 characters long, contains at least one uppercase letter, one lowercase letter, and one number
-const passwordRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,}$/;
+// const passwordRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,}$/;
 // ^ start at the beginning of the string
 // (?=.*?[A-Z]) contain at least one uppercase letter
 // (?=.*?[a-z]) contain at least one lowercase letter
